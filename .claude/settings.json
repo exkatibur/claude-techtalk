@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "speak a text when user input is needed"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/katrinhoerschelmann/development/exkatibur/Kassiopeia/.claude/hooks/workflow-orchestrator.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
