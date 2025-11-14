@@ -2,11 +2,22 @@
   "hooks": {
     "Notification": [
       {
-        "matcher": "*",
+        "matcher": "",
         "hooks": [
           {
             "type": "command",
-            "command": "speak a text when user input is needed"
+            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/notification.py --notify"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/notification.py --notify"
           }
         ]
       }
